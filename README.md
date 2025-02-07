@@ -7,7 +7,7 @@ Nifty 100
 Nifty MidCap 150
 Nifty SmallCap 250
 
-## Criteri
+## Criteria
 1. Positive 1-year return
 2. Positive 6-month return
 3. Price > 200-day moving average
