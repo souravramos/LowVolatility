@@ -59,7 +59,8 @@ def stock_screener(df, index_df=None):
     df['50-EMA'] = calculate_moving_average(df, period=50, ma_type='EMA')
     df['200-SMA'] = calculate_moving_average(df, period=200, ma_type='SMA')
     df['100-SMA'] = calculate_moving_average(df, period=100, ma_type='SMA')
-
+    df['RSI'] = calculate_moving_average(df, period=100, ma_type='SMA')
+    
     df['Price_Above_200_SMA'] = df['Adj_Close'] > df['200-SMA']
     df['Price_Above_50_EMA'] = df['Adj_Close'] > df['50-EMA']
     # print(df.tail(10))
