@@ -1,7 +1,7 @@
 # Variables
 
 START_DATE = "2024-01-01"
-END_DATE = "2025-01-31"
+END_DATE = "2024-12-31"
 
 GENERATE_NEW_DATA = False
 
