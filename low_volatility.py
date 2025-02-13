@@ -61,7 +61,7 @@ def stock_screener(df, index_df=None):
 
     df['Price_Above_200_SMA'] = df['Adj_Close'] > df['200-SMA']
     df['Price_Above_50_EMA'] = df['Adj_Close'] > df['50-EMA']
-    print(df.tail(10))
+    # print(df.tail(10))
 
     return df
 
